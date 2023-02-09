@@ -1,9 +1,10 @@
 package Day04.Class;
 
 // 상속
-// - 키워드 : 지식클래스 extends 부모클래스 {}
+// - 키워드 : 지식클래스 extends 부모클래스 { }
 public class Raichu extends Pikachu{
-	// 생성자 자동완성
+	
+	// 생성자 자동완성 
 	// alt + shift + S -> C
 	public Raichu() {
 		super(200, "슈퍼전기");
@@ -12,8 +13,9 @@ public class Raichu extends Pikachu{
 	public Raichu(int energy, String type) {
 		super(energy, type);
 	}
+	
 	// 메소드 오버라이딩 : 메소드 재정의
-	// 오버라이딩 자동완성 : alt +shift + S -> V
+	// 오버라이딩 자동완성 : alt +shift + S -> V -> aAttack, bAttack 체크하고 OK
 
 	@Override
 	public String aAttack() {

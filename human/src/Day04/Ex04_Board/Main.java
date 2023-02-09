@@ -162,7 +162,8 @@ public class Main {
 				 	System.out.print("게시글 번호 : ");
 					boardNo = sc.nextInt();
 					sc.nextLine();
-					count = index+1;
+					count = index+1;  // index : 0 1 2 3 ... 10
+					 				  // count : 1 2 3 4 ... 11  이므로 count = index+1
 					delete(boardNo);
 					break;
 			 
